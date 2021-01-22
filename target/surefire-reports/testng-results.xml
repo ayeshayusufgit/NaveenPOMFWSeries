@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="19" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo Cart Test automtion regression suite" duration-ms="26187" started-at="2021-01-22T16:23:46Z" finished-at="2021-01-22T16:24:12Z">
+    <groups>
+    </groups>
+    <test name="Accounts page Test" duration-ms="24947" started-at="2021-01-22T16:23:46Z" finished-at="2021-01-22T16:24:11Z">
+      <class name="com.qa.democart.test.AccountsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="setUp" is-config="true" duration-ms="9376" started-at="2021-01-22T16:23:46Z" finished-at="2021-01-22T16:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="accountsPageSetup()[pri:0, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="accountsPageSetup" is-config="true" duration-ms="2954" started-at="2021-01-22T16:23:55Z" finished-at="2021-01-22T16:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountsPageSetup -->
+        <test-method status="PASS" signature="accountsPageTitleTest()[pri:1, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="accountsPageTitleTest" duration-ms="21" started-at="2021-01-22T16:23:58Z" finished-at="2021-01-22T16:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountsPageTitleTest -->
+        <test-method status="PASS" signature="accountsPageHeaderTest()[pri:2, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="accountsPageHeaderTest" duration-ms="121" started-at="2021-01-22T16:23:58Z" finished-at="2021-01-22T16:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountsPageHeaderTest -->
+        <test-method status="PASS" signature="accountPageSectionCountTest()[pri:3, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="accountPageSectionCountTest" duration-ms="28" started-at="2021-01-22T16:23:58Z" finished-at="2021-01-22T16:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountPageSectionCountTest -->
+        <test-method status="PASS" signature="accountPageSectionTextTest()[pri:4, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="accountPageSectionTextTest" duration-ms="62" started-at="2021-01-22T16:23:58Z" finished-at="2021-01-22T16:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountPageSectionTextTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="searchTest" duration-ms="1753" started-at="2021-01-22T16:23:58Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:24:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="searchTest" duration-ms="1655" started-at="2021-01-22T16:24:00Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:24:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Macbook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="searchTest" duration-ms="1644" started-at="2021-01-22T16:24:02Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="FAIL" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="searchTest" duration-ms="1569" started-at="2021-01-22T16:24:03Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:24:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shoes]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.democart.test.AccountsPageTest.searchTest(AccountsPageTest.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="FAIL" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="searchTest" duration-ms="1544" started-at="2021-01-22T16:24:06Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:24:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mouse]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.democart.test.AccountsPageTest.searchTest(AccountsPageTest.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="FAIL" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="searchTest" duration-ms="1566" started-at="2021-01-22T16:24:08Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:24:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyboard]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.qa.democart.test.AccountsPageTest.searchTest(AccountsPageTest.java:77)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.democart.test.AccountsPageTest@f973499]" name="tearDown" is-config="true" duration-ms="689" started-at="2021-01-22T16:24:10Z" finished-at="2021-01-22T16:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.democart.test.AccountsPageTest -->
+    </test> <!-- Accounts page Test -->
+    <test name="Login page Test" duration-ms="26187" started-at="2021-01-22T16:23:46Z" finished-at="2021-01-22T16:24:12Z">
+      <class name="com.qa.democart.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="setUp" is-config="true" duration-ms="9377" started-at="2021-01-22T16:23:46Z" finished-at="2021-01-22T16:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="verifyLoginPageTitleTest" duration-ms="171" started-at="2021-01-22T16:23:55Z" finished-at="2021-01-22T16:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="verifyForgotPasswordLinkTest()[pri:2, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="verifyForgotPasswordLinkTest" duration-ms="74" started-at="2021-01-22T16:23:56Z" finished-at="2021-01-22T16:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="loginNegativeTest" duration-ms="1911" started-at="2021-01-22T16:23:57Z" data-provider="getLoginData" finished-at="2021-01-22T16:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="loginNegativeTest" duration-ms="1865" started-at="2021-01-22T16:23:59Z" data-provider="getLoginData" finished-at="2021-01-22T16:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ayesha.yusuf10@tathastu.ai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="loginNegativeTest" duration-ms="1861" started-at="2021-01-22T16:24:01Z" data-provider="getLoginData" finished-at="2021-01-22T16:24:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="loginNegativeTest" duration-ms="1862" started-at="2021-01-22T16:24:02Z" data-provider="getLoginData" finished-at="2021-01-22T16:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ayesha.yusuf10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="loginNegativeTest" duration-ms="1913" started-at="2021-01-22T16:24:04Z" data-provider="getLoginData" finished-at="2021-01-22T16:24:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#4@%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[^!@##]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="loginNegativeTest" duration-ms="1841" started-at="2021-01-22T16:24:06Z" data-provider="getLoginData" finished-at="2021-01-22T16:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ayesha.yusuf10@tathastu.ai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="loginTest" duration-ms="2822" started-at="2021-01-22T16:24:08Z" finished-at="2021-01-22T16:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.democart.test.LoginPageTest@4b1abd11]" name="tearDown" is-config="true" duration-ms="687" started-at="2021-01-22T16:24:11Z" finished-at="2021-01-22T16:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.democart.test.LoginPageTest -->
+    </test> <!-- Login page Test -->
+  </suite> <!-- Demo Cart Test automtion regression suite -->
+</testng-results>

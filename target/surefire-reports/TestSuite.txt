@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 27.805 s <<< FAILURE! - in TestSuite
+com.qa.democart.test.AccountsPageTest.searchTest[Shoes](4)  Time elapsed: 1.305 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.democart.test.AccountsPageTest.searchTest(AccountsPageTest.java:77)
+
+com.qa.democart.test.AccountsPageTest.searchTest[Mouse](5)  Time elapsed: 1.539 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.democart.test.AccountsPageTest.searchTest(AccountsPageTest.java:77)
+
+com.qa.democart.test.AccountsPageTest.searchTest[Keyboard](6)  Time elapsed: 1.85 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.democart.test.AccountsPageTest.searchTest(AccountsPageTest.java:77)
+

@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite">
+              <span class="suite-name border-failed">Demo Cart Test automtion regression suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Demo_Cart_Test_automtion_regression_suite">
+                    <span>C:\Users\ayesh\automation\NaveenPOMFWSeries\src\test\resources\testrunners\testng_regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Demo_Cart_Test_automtion_regression_suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Demo_Cart_Test_automtion_regression_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Demo_Cart_Test_automtion_regression_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Demo_Cart_Test_automtion_regression_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Demo_Cart_Test_automtion_regression_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Demo_Cart_Test_automtion_regression_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 3 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" class="hide-methods failed suite-Demo_Cart_Test_automtion_regression_suite"> (hide)</a> <!-- hide-methods failed suite-Demo_Cart_Test_automtion_regression_suite -->
+                      <a href="#" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" class="show-methods failed suite-Demo_Cart_Test_automtion_regression_suite"> (show)</a> <!-- show-methods failed suite-Demo_Cart_Test_automtion_regression_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Demo_Cart_Test_automtion_regression_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="searchTest(Mouse)">searchTest(Mouse)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="searchTest(Keyboard)">searchTest(Keyboard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="searchTest(Shoes)">searchTest(Shoes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Demo_Cart_Test_automtion_regression_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" class="hide-methods passed suite-Demo_Cart_Test_automtion_regression_suite"> (hide)</a> <!-- hide-methods passed suite-Demo_Cart_Test_automtion_regression_suite -->
+                      <a href="#" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" class="show-methods passed suite-Demo_Cart_Test_automtion_regression_suite"> (show)</a> <!-- show-methods passed suite-Demo_Cart_Test_automtion_regression_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Demo_Cart_Test_automtion_regression_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="accountPageSectionCountTest">accountPageSectionCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="accountPageSectionTextTest">accountPageSectionTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="accountsPageHeaderTest">accountsPageHeaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="accountsPageTitleTest">accountsPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.LoginPageTest" hash-for-method="loginNegativeTest(ayesha.yusuf10@tathastu.ai, &quot;&quot;)">loginNegativeTest(ayesha.yusuf10@tathastu.ai, "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.LoginPageTest" hash-for-method="loginNegativeTest(ayesha.yusuf10, &quot;&quot;)">loginNegativeTest(ayesha.yusuf10, "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.LoginPageTest" hash-for-method="loginNegativeTest(&quot;, &quot;&quot;)">loginNegativeTest(", "")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.LoginPageTest" hash-for-method="loginNegativeTest(ayesha.yusuf10@tathastu.ai, abc123)">loginNegativeTest(ayesha.yusuf10@tathastu.ai, abc123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.LoginPageTest" hash-for-method="loginNegativeTest(&quot;&quot;, abc123)">loginNegativeTest("", abc123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.LoginPageTest" hash-for-method="loginNegativeTest(#4@%, ^!@##)">loginNegativeTest(#4@%, ^!@##)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="searchTest(iMac)">searchTest(iMac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="searchTest(iPhone)">searchTest(iPhone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.AccountsPageTest" hash-for-method="searchTest(Macbook)">searchTest(Macbook)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.LoginPageTest" hash-for-method="verifyForgotPasswordLinkTest">verifyForgotPasswordLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Cart_Test_automtion_regression_suite" title="com.qa.democart.test.LoginPageTest" hash-for-method="verifyLoginPageTitleTest">verifyLoginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Demo_Cart_Test_automtion_regression_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Demo_Cart_Test_automtion_regression_suite" class="panel Demo_Cart_Test_automtion_regression_suite">
+          <div class="suite-Demo_Cart_Test_automtion_regression_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.democart.test.AccountsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Mouse)">
+                  </a> <!-- searchTest(Mouse) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Mouse)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.democart.test.AccountsPageTest.searchTest(AccountsPageTest.java:77)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Keyboard)">
+                  </a> <!-- searchTest(Keyboard) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Keyboard)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.democart.test.AccountsPageTest.searchTest(AccountsPageTest.java:77)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Shoes)">
+                  </a> <!-- searchTest(Shoes) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Shoes)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.democart.test.AccountsPageTest.searchTest(AccountsPageTest.java:77)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Cart_Test_automtion_regression_suite-class-failed -->
+          <div class="suite-Demo_Cart_Test_automtion_regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.democart.test.AccountsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountPageSectionCountTest">
+                  </a> <!-- accountPageSectionCountTest -->
+                  <span class="method-name">accountPageSectionCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountPageSectionTextTest">
+                  </a> <!-- accountPageSectionTextTest -->
+                  <span class="method-name">accountPageSectionTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountsPageHeaderTest">
+                  </a> <!-- accountsPageHeaderTest -->
+                  <span class="method-name">accountsPageHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountsPageTitleTest">
+                  </a> <!-- accountsPageTitleTest -->
+                  <span class="method-name">accountsPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(iMac)">
+                  </a> <!-- searchTest(iMac) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(iMac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(iPhone)">
+                  </a> <!-- searchTest(iPhone) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(iPhone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Macbook)">
+                  </a> <!-- searchTest(Macbook) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Macbook)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Cart_Test_automtion_regression_suite-class-passed -->
+          <div class="suite-Demo_Cart_Test_automtion_regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.democart.test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNegativeTest(ayesha.yusuf10@tathastu.ai, &quot;&quot;)">
+                  </a> <!-- loginNegativeTest(ayesha.yusuf10@tathastu.ai, "") -->
+                  <span class="method-name">loginNegativeTest</span>
+                  <span class="parameters">(ayesha.yusuf10@tathastu.ai, "")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNegativeTest(ayesha.yusuf10, &quot;&quot;)">
+                  </a> <!-- loginNegativeTest(ayesha.yusuf10, "") -->
+                  <span class="method-name">loginNegativeTest</span>
+                  <span class="parameters">(ayesha.yusuf10, "")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNegativeTest(&quot;, &quot;&quot;)">
+                  </a> <!-- loginNegativeTest(", "") -->
+                  <span class="method-name">loginNegativeTest</span>
+                  <span class="parameters">(", "")</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNegativeTest(ayesha.yusuf10@tathastu.ai, abc123)">
+                  </a> <!-- loginNegativeTest(ayesha.yusuf10@tathastu.ai, abc123) -->
+                  <span class="method-name">loginNegativeTest</span>
+                  <span class="parameters">(ayesha.yusuf10@tathastu.ai, abc123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNegativeTest(&quot;&quot;, abc123)">
+                  </a> <!-- loginNegativeTest("", abc123) -->
+                  <span class="method-name">loginNegativeTest</span>
+                  <span class="parameters">("", abc123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNegativeTest(#4@%, ^!@##)">
+                  </a> <!-- loginNegativeTest(#4@%, ^!@##) -->
+                  <span class="method-name">loginNegativeTest</span>
+                  <span class="parameters">(#4@%, ^!@##)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPasswordLinkTest">
+                  </a> <!-- verifyForgotPasswordLinkTest -->
+                  <span class="method-name">verifyForgotPasswordLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageTitleTest">
+                  </a> <!-- verifyLoginPageTitleTest -->
+                  <span class="method-name">verifyLoginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Cart_Test_automtion_regression_suite-class-passed -->
+        </div> <!-- panel Demo_Cart_Test_automtion_regression_suite -->
+        <div panel-name="test-xml-Demo_Cart_Test_automtion_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ayesh\automation\NaveenPOMFWSeries\src\test\resources\testrunners\testng_regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Demo Cart Test automtion regression suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.democart.listeners.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.democart.listeners.AllureReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;Login page Test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.democart.test.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login page Test --&gt;
+  &lt;test thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;Accounts page Test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.democart.test.AccountsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Accounts page Test --&gt;
+&lt;/suite&gt; &lt;!-- Demo Cart Test automtion regression suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Demo_Cart_Test_automtion_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Demo Cart Test automtion regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Accounts page Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Demo_Cart_Test_automtion_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Demo Cart Test automtion regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Demo_Cart_Test_automtion_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Demo Cart Test automtion regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Demo_Cart_Test_automtion_regression_suite');
+function tableData_Demo_Cart_Test_automtion_regression_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.qa.democart.test.LoginPageTest')
+data.setCell(0, 3, 2822);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginNegativeTest')
+data.setCell(1, 2, 'com.qa.democart.test.LoginPageTest')
+data.setCell(1, 3, 1913);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginNegativeTest')
+data.setCell(2, 2, 'com.qa.democart.test.LoginPageTest')
+data.setCell(2, 3, 1911);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginNegativeTest')
+data.setCell(3, 2, 'com.qa.democart.test.LoginPageTest')
+data.setCell(3, 3, 1865);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginNegativeTest')
+data.setCell(4, 2, 'com.qa.democart.test.LoginPageTest')
+data.setCell(4, 3, 1862);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginNegativeTest')
+data.setCell(5, 2, 'com.qa.democart.test.LoginPageTest')
+data.setCell(5, 3, 1861);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginNegativeTest')
+data.setCell(6, 2, 'com.qa.democart.test.LoginPageTest')
+data.setCell(6, 3, 1841);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchTest')
+data.setCell(7, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(7, 3, 1753);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchTest')
+data.setCell(8, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(8, 3, 1655);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchTest')
+data.setCell(9, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(9, 3, 1644);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'searchTest')
+data.setCell(10, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(10, 3, 1569);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchTest')
+data.setCell(11, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(11, 3, 1566);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchTest')
+data.setCell(12, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(12, 3, 1544);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLoginPageTitleTest')
+data.setCell(13, 2, 'com.qa.democart.test.LoginPageTest')
+data.setCell(13, 3, 171);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'accountsPageHeaderTest')
+data.setCell(14, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(14, 3, 121);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyForgotPasswordLinkTest')
+data.setCell(15, 2, 'com.qa.democart.test.LoginPageTest')
+data.setCell(15, 3, 74);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'accountPageSectionTextTest')
+data.setCell(16, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(16, 3, 62);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'accountPageSectionCountTest')
+data.setCell(17, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(17, 3, 28);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'accountsPageTitleTest')
+data.setCell(18, 2, 'com.qa.democart.test.AccountsPageTest')
+data.setCell(18, 3, 21);
+window.suiteTableData['Demo_Cart_Test_automtion_regression_suite']= { tableData: data, tableDiv: 'times-div-Demo_Cart_Test_automtion_regression_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-Demo_Cart_Test_automtion_regression_suite">
+              </div> <!-- times-div-Demo_Cart_Test_automtion_regression_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Demo_Cart_Test_automtion_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Demo Cart Test automtion regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Demo_Cart_Test_automtion_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Demo_Cart_Test_automtion_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">accountsPageSetup</span>
+                <span class="method-start">9398 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPageTitleTest</span>
+                <span class="method-start">9433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPasswordLinkTest</span>
+                <span class="method-start">9782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginNegativeTest(", "")</span>
+                <span class="method-start">11108 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">accountsPageTitleTest</span>
+                <span class="method-start">12352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accountsPageHeaderTest</span>
+                <span class="method-start">12376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accountPageSectionCountTest</span>
+                <span class="method-start">12500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">accountPageSectionTextTest</span>
+                <span class="method-start">12530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(iMac)</span>
+                <span class="method-start">12638 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginNegativeTest(ayesha.yusuf10@tathastu.ai, "")</span>
+                <span class="method-start">13026 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Macbook)</span>
+                <span class="method-start">14397 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginNegativeTest("", abc123)</span>
+                <span class="method-start">14895 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTest(iPhone)</span>
+                <span class="method-start">16055 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginNegativeTest(ayesha.yusuf10, "")</span>
+                <span class="method-start">16759 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchTest(Shoes)</span>
+                <span class="method-start">17703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginNegativeTest(#4@%, ^!@##)</span>
+                <span class="method-start">18625 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchTest(Mouse)</span>
+                <span class="method-start">19935 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginNegativeTest(ayesha.yusuf10@tathastu.ai, abc123)</span>
+                <span class="method-start">20541 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchTest(Keyboard)</span>
+                <span class="method-start">22083 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">22396 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24247 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.democart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25489 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

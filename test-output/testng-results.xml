@@ -2,36 +2,156 @@
 <testng-results skipped="0" failed="3" ignored="0" total="19" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Demo Cart Test automtion regression suite" duration-ms="25964" started-at="2021-01-18T15:44:57Z" finished-at="2021-01-18T15:45:23Z">
+  <suite name="Demo Cart Test automtion regression suite" duration-ms="33394" started-at="2021-01-22T16:16:11Z" finished-at="2021-01-22T16:16:44Z">
     <groups>
     </groups>
-    <test name="Accounts page Test" duration-ms="24713" started-at="2021-01-18T15:44:57Z" finished-at="2021-01-18T15:45:22Z">
-      <class name="com.qa.democart.test.AccountsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="setUp" is-config="true" duration-ms="9325" started-at="2021-01-18T15:44:57Z" finished-at="2021-01-18T15:45:06Z">
+    <test name="Login page Test" duration-ms="31657" started-at="2021-01-22T16:16:11Z" finished-at="2021-01-22T16:16:42Z">
+      <class name="com.qa.democart.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="setUp" is-config="true" duration-ms="14684" started-at="2021-01-22T16:16:11Z" finished-at="2021-01-22T16:16:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="accountsPageSetup()[pri:0, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="accountsPageSetup" is-config="true" duration-ms="2929" started-at="2021-01-18T15:45:06Z" finished-at="2021-01-18T15:45:09Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="verifyLoginPageTitleTest" duration-ms="160" started-at="2021-01-22T16:16:26Z" finished-at="2021-01-22T16:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="verifyForgotPasswordLinkTest()[pri:2, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="verifyForgotPasswordLinkTest" duration-ms="84" started-at="2021-01-22T16:16:26Z" finished-at="2021-01-22T16:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="loginNegativeTest" duration-ms="1938" started-at="2021-01-22T16:16:27Z" data-provider="getLoginData" finished-at="2021-01-22T16:16:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="loginNegativeTest" duration-ms="1867" started-at="2021-01-22T16:16:29Z" data-provider="getLoginData" finished-at="2021-01-22T16:16:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ayesha.yusuf10@tathastu.ai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="loginNegativeTest" duration-ms="1844" started-at="2021-01-22T16:16:31Z" data-provider="getLoginData" finished-at="2021-01-22T16:16:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="loginNegativeTest" duration-ms="1806" started-at="2021-01-22T16:16:33Z" data-provider="getLoginData" finished-at="2021-01-22T16:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ayesha.yusuf10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="loginNegativeTest" duration-ms="2257" started-at="2021-01-22T16:16:35Z" data-provider="getLoginData" finished-at="2021-01-22T16:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#4@%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[^!@##]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="loginNegativeTest" duration-ms="1884" started-at="2021-01-22T16:16:37Z" data-provider="getLoginData" finished-at="2021-01-22T16:16:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ayesha.yusuf10@tathastu.ai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="loginTest" duration-ms="2749" started-at="2021-01-22T16:16:39Z" finished-at="2021-01-22T16:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.democart.test.LoginPageTest@417d6615]" name="tearDown" is-config="true" duration-ms="682" started-at="2021-01-22T16:16:42Z" finished-at="2021-01-22T16:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.democart.test.LoginPageTest -->
+    </test> <!-- Login page Test -->
+    <test name="Accounts page Test" duration-ms="33394" started-at="2021-01-22T16:16:11Z" finished-at="2021-01-22T16:16:44Z">
+      <class name="com.qa.democart.test.AccountsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="setUp" is-config="true" duration-ms="14659" started-at="2021-01-22T16:16:11Z" finished-at="2021-01-22T16:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="accountsPageSetup()[pri:0, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="accountsPageSetup" is-config="true" duration-ms="3067" started-at="2021-01-22T16:16:26Z" finished-at="2021-01-22T16:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountsPageSetup -->
-        <test-method status="PASS" signature="accountsPageTitleTest()[pri:1, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="accountsPageTitleTest" duration-ms="17" started-at="2021-01-18T15:45:09Z" finished-at="2021-01-18T15:45:09Z">
+        <test-method status="PASS" signature="accountsPageTitleTest()[pri:1, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="accountsPageTitleTest" duration-ms="19" started-at="2021-01-22T16:16:29Z" finished-at="2021-01-22T16:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountsPageTitleTest -->
-        <test-method status="PASS" signature="accountsPageHeaderTest()[pri:2, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="accountsPageHeaderTest" duration-ms="104" started-at="2021-01-18T15:45:09Z" finished-at="2021-01-18T15:45:09Z">
+        <test-method status="PASS" signature="accountsPageHeaderTest()[pri:2, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="accountsPageHeaderTest" duration-ms="89" started-at="2021-01-22T16:16:29Z" finished-at="2021-01-22T16:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountsPageHeaderTest -->
-        <test-method status="PASS" signature="accountPageSectionCountTest()[pri:3, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="accountPageSectionCountTest" duration-ms="17" started-at="2021-01-18T15:45:09Z" finished-at="2021-01-18T15:45:09Z">
+        <test-method status="PASS" signature="accountPageSectionCountTest()[pri:3, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="accountPageSectionCountTest" duration-ms="20" started-at="2021-01-22T16:16:29Z" finished-at="2021-01-22T16:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountPageSectionCountTest -->
-        <test-method status="PASS" signature="accountPageSectionTextTest()[pri:4, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="accountPageSectionTextTest" duration-ms="92" started-at="2021-01-18T15:45:09Z" finished-at="2021-01-18T15:45:10Z">
+        <test-method status="PASS" signature="accountPageSectionTextTest()[pri:4, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="accountPageSectionTextTest" duration-ms="77" started-at="2021-01-22T16:16:29Z" finished-at="2021-01-22T16:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountPageSectionTextTest -->
-        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="searchTest" duration-ms="1821" started-at="2021-01-18T15:45:10Z" data-provider="getProductSearchData" finished-at="2021-01-18T15:45:11Z">
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="searchTest" duration-ms="2633" started-at="2021-01-22T16:16:29Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:16:31Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="searchTest" duration-ms="1591" started-at="2021-01-18T15:45:11Z" data-provider="getProductSearchData" finished-at="2021-01-18T15:45:13Z">
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="searchTest" duration-ms="2543" started-at="2021-01-22T16:16:32Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:16:34Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +173,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="searchTest" duration-ms="1582" started-at="2021-01-18T15:45:13Z" data-provider="getProductSearchData" finished-at="2021-01-18T15:45:15Z">
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="searchTest" duration-ms="2399" started-at="2021-01-22T16:16:34Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:16:36Z">
           <params>
             <param index="0">
               <value>
@@ -64,7 +184,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="FAIL" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="searchTest" duration-ms="1509" started-at="2021-01-18T15:45:15Z" data-provider="getProductSearchData" finished-at="2021-01-18T15:45:16Z">
+        <test-method status="FAIL" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="searchTest" duration-ms="1671" started-at="2021-01-22T16:16:36Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:16:38Z">
           <params>
             <param index="0">
               <value>
@@ -109,7 +229,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="FAIL" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="searchTest" duration-ms="1566" started-at="2021-01-18T15:45:17Z" data-provider="getProductSearchData" finished-at="2021-01-18T15:45:18Z">
+        <test-method status="FAIL" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="searchTest" duration-ms="1579" started-at="2021-01-22T16:16:39Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:16:40Z">
           <params>
             <param index="0">
               <value>
@@ -154,7 +274,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="FAIL" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="searchTest" duration-ms="1518" started-at="2021-01-18T15:45:19Z" data-provider="getProductSearchData" finished-at="2021-01-18T15:45:20Z">
+        <test-method status="FAIL" signature="searchTest(java.lang.String)[pri:5, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="searchTest" duration-ms="1524" started-at="2021-01-22T16:16:41Z" data-provider="getProductSearchData" finished-at="2021-01-22T16:16:43Z">
           <params>
             <param index="0">
               <value>
@@ -199,131 +319,11 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.democart.test.AccountsPageTest@67001148]" name="tearDown" is-config="true" duration-ms="653" started-at="2021-01-18T15:45:21Z" finished-at="2021-01-18T15:45:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.democart.test.AccountsPageTest@562c877a]" name="tearDown" is-config="true" duration-ms="646" started-at="2021-01-22T16:16:44Z" finished-at="2021-01-22T16:16:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.democart.test.AccountsPageTest -->
     </test> <!-- Accounts page Test -->
-    <test name="Login page Test" duration-ms="25964" started-at="2021-01-18T15:44:57Z" finished-at="2021-01-18T15:45:23Z">
-      <class name="com.qa.democart.test.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="setUp" is-config="true" duration-ms="9376" started-at="2021-01-18T15:44:57Z" finished-at="2021-01-18T15:45:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="verifyLoginPageTitleTest" duration-ms="170" started-at="2021-01-18T15:45:06Z" finished-at="2021-01-18T15:45:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="verifyForgotPasswordLinkTest()[pri:2, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="verifyForgotPasswordLinkTest" duration-ms="73" started-at="2021-01-18T15:45:07Z" finished-at="2021-01-18T15:45:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordLinkTest -->
-        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="loginNegativeTest" duration-ms="1878" started-at="2021-01-18T15:45:08Z" data-provider="getLoginData" finished-at="2021-01-18T15:45:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginNegativeTest -->
-        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="loginNegativeTest" duration-ms="1896" started-at="2021-01-18T15:45:10Z" data-provider="getLoginData" finished-at="2021-01-18T15:45:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ayesha.yusuf10@tathastu.ai]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginNegativeTest -->
-        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="loginNegativeTest" duration-ms="1843" started-at="2021-01-18T15:45:12Z" data-provider="getLoginData" finished-at="2021-01-18T15:45:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginNegativeTest -->
-        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="loginNegativeTest" duration-ms="1842" started-at="2021-01-18T15:45:14Z" data-provider="getLoginData" finished-at="2021-01-18T15:45:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ayesha.yusuf10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[""]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginNegativeTest -->
-        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="loginNegativeTest" duration-ms="1872" started-at="2021-01-18T15:45:16Z" data-provider="getLoginData" finished-at="2021-01-18T15:45:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[#4@%]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[^!@##]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginNegativeTest -->
-        <test-method status="PASS" signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="loginNegativeTest" duration-ms="1868" started-at="2021-01-18T15:45:17Z" data-provider="getLoginData" finished-at="2021-01-18T15:45:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ayesha.yusuf10@tathastu.ai]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginNegativeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:4, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="loginTest" duration-ms="2740" started-at="2021-01-18T15:45:19Z" finished-at="2021-01-18T15:45:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.democart.test.LoginPageTest@7a6ebe1e]" name="tearDown" is-config="true" duration-ms="666" started-at="2021-01-18T15:45:22Z" finished-at="2021-01-18T15:45:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.democart.test.LoginPageTest -->
-    </test> <!-- Login page Test -->
   </suite> <!-- Demo Cart Test automtion regression suite -->
 </testng-results>
