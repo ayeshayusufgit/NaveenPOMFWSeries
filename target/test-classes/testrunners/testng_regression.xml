@@ -2,13 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Demo Cart Test automtion regression suite"
-	thread-count="3" parallel="tests" verbose="3">
+	thread-count="2" parallel="tests" verbose="3">
 
 	<listeners>
 		<listener
 			class-name="com.qa.democart.listeners.ExtentReportListener" />
 		<listener
 			class-name="com.qa.democart.listeners.AllureReportListener" />
+		<listener
+			class-name="com.qa.democart.listeners.TesultReportListener" />
 	</listeners>
 
 	<test name="Login page Test">

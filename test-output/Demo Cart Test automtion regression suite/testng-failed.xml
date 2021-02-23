@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Demo Cart Test automtion regression suite]" parallel="tests">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Demo Cart Test automtion regression suite]" parallel="tests">
   <listeners>
     <listener class-name="com.qa.democart.listeners.ExtentReportListener"/>
     <listener class-name="com.qa.democart.listeners.AllureReportListener"/>
+    <listener class-name="com.qa.democart.listeners.TesultReportListener"/>
   </listeners>
-  <test thread-count="3" verbose="3" name="Accounts page Test(failed)" parallel="tests">
+  <test thread-count="2" verbose="3" name="Accounts page Test(failed)" parallel="tests">
     <classes>
       <class name="com.qa.democart.test.AccountsPageTest">
         <methods>

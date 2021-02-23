@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -18,19 +19,29 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ElementUtil {
+import com.qa.democart.factory.DriverFactory;
 
+public class ElementUtil {
+	private static final Logger LOGGER = Logger.getLogger(ElementUtil.class);
 	private WebDriver driver;// The access of this reference variable shouldnt be provided out of the class
+	private JavaScriptUtil jsUtil;
 
 	// If static is used then driver/methods have to be made static
 	// No static WebDriver reference/method cannot be used in parallel execution
 	// If static is used then we are not using proper oo concept
 	public ElementUtil(WebDriver driver) {
 		this.driver = driver;
+		this.jsUtil = new JavaScriptUtil(this.driver);
 	}
 
 	public WebElement getElement(By locator) {
-		return driver.findElement(locator);
+		LOGGER.info("Locator is:" + locator);
+		WebElement element = driver.findElement(locator);
+		LOGGER.info("Element is:" + element.toString());
+		if (DriverFactory.highlight.equals("true")) {
+			jsUtil.flash(element);
+		}
+		return element;
 	}
 
 	public void doClick(By locator) {
@@ -417,5 +428,9 @@ public class ElementUtil {
 				e.printStackTrace();
 			}
 		}
+	}
+
+	public void imp() {
+
 	}
 }

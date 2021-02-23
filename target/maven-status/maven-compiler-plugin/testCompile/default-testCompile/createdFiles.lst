@@ -1,0 +1,6 @@
+com\qa\democart\test\ProductInfoPage.class
+com\qa\democart\test\AccountsPageTest.class
+com\qa\democart\test\ForgotPasswordTest.class
+com\qa\democart\base\BaseTest.class
+com\qa\democart\test\RegisterPageTest.class
+com\qa\democart\test\LoginPageTest.class
