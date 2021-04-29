@@ -76,5 +76,4 @@ public class AccountsPageTest extends BaseTest {
 	public void searchTest(String searchTerms) {
 		Assert.assertTrue(accountsPage.doSearch(searchTerms));
 	}
-
 }
