@@ -37,7 +37,6 @@ public class DriverFactory {
 	private ProfileManager profileManager;
 	
 	// ThreadLocal concept needs to be applied on WebDriver
-	//comment
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 
 	/**
